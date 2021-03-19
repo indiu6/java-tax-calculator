@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Tax Calculator Free</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="calc">Calculate Tax</string>
+    <string name="reset">Reset</string>
+    <string name="cost">Cost</string>
+    <string name="taxrate">Tax Rate (%)</string>
+    <string name="total">Total</string>
+    <string name="mandatory">All fields are mandatory</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_settings">Tax Calculator Settings</string>
+
+    <!-- Preference Section Titles -->
+    <string name="currency_header">Currency Options</string>
+    <string name="save_header">Save</string>
+
+    <!-- Currency Preferences -->
+    <string name="prefix_title">Currency Prefix</string>
+    <string name="decimal_title">Decimal Point</string>
+
+    <!-- Save Preferences -->
+    <string name="save_title">Save values on close</string>
+    <string name="save_summary_on">Inputs will be restored on startup
+    </string>
+    <string name="save_summary_off">Use default values on startup</string>
+
+    <string name="stats">Statistics</string>
+    <string name="title_activity_stats">Tax Calculator Statistics</string>
+    <string name="stats_total_costs">Total Costs Before Tax</string>
+    <string name="stats_total_tax">Total Taxes Paid</string>
+    <string name="stats_transactions">Total Number of transactions</string>
+</resources>

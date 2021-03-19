@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewCostLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cost"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:textAlignment="textEnd" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewTaxRateLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/taxrate"
+                android:textSize="30sp" />
+
+            <EditText
+                android:id="@+id/editTextTaxRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:ems="10"
+                android:inputType="numberDecimal"
+                android:text="13"
+                android:textAlignment="textEnd" />
+
+            <Button
+                android:id="@+id/buttonDecrement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/buttonIncrement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewTotalLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/textViewTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="TextView"
+                android:textAlignment="textEnd"
+                android:textSize="30sp"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/reset" />
+
+            <Button
+                android:id="@+id/buttonCalculateTax"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/calc" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

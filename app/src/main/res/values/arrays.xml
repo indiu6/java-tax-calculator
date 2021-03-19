@@ -1,0 +1,14 @@
+<resources>
+    <!-- Decimal Preference -->
+    <string-array name="decimal_entries">
+        <item>Decimal point: .</item>
+        <item>Comma: ,</item>
+        <item>Space</item>
+    </string-array>
+
+    <string-array name="decimal_values">
+        <item>.</item>
+        <item>,</item>
+        <item> </item>
+    </string-array>
+</resources>

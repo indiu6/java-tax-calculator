@@ -1,0 +1,30 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@null</item>
+        <item name="android:buttonStyle">@style/ButtonWith3DText</item>
+    </style>
+
+    <style name="SplashScreenTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Temporary theme at start up for main activity -->
+        <item name="android:background">@drawable/ic_calculator_splash_screen</item>
+        <item name="android:windowBackground">@color/colorWhite</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="ButtonWith3DText" parent="@style/Widget.AppCompat.Button">
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDx">3</item>
+        <item name="android:shadowDy">3</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+</resources>
