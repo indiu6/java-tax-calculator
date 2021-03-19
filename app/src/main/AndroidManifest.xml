@@ -20,6 +20,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="ca.on.conestogac.clo.taxcalculator.TAX_CALCULATED" />
             </intent-filter>
         </receiver>
 
